@@ -1,6 +1,6 @@
 {
 	"name": "remix-auth-oauth2",
-	"version": "2.4.0",
+	"version": "2.4.0.1",
 	"description": "A strategy to use and implement OAuth2 framework for authentication with federated services like Google, Facebook, GitHub, etc.",
 	"license": "MIT",
 	"funding": [
