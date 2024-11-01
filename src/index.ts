@@ -1,7 +1,7 @@
 import {
 	type AppLoadContext,
 	type SessionStorage,
-	redirect,
+	redirectDocument,
 } from "@remix-run/server-runtime";
 import createDebug from "debug";
 import {
@@ -195,7 +195,7 @@ export class OAuth2Strategy<
 
 			debug("Authorization URL", authorizationURL.toString());
 
-			throw redirect(authorizationURL.toString(), {
+			throw redirectDocument(authorizationURL.toString(), {
 				headers: {
 					"Set-Cookie": await sessionStorage.commitSession(session),
 				},
