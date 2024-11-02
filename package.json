@@ -1,6 +1,6 @@
 {
 	"name": "remix-auth-oauth2",
-	"version": "2.4.0.2",
+	"version": "2.4.0.3",
 	"description": "A strategy to use and implement OAuth2 framework for authentication with federated services like Google, Facebook, GitHub, etc.",
 	"license": "MIT",
 	"funding": [
@@ -31,8 +31,7 @@
 		"typecheck": "tsc --noEmit",
 		"quality": "biome check .",
 		"quality:fix": "biome check . --write --unsafe",
-		"exports": "bun run ./scripts/exports.ts",
-    "install": "tsc"
+		"exports": "bun run ./scripts/exports.ts"
 	},
 	"sideEffects": false,
 	"type": "module",
