@@ -1,8 +1,8 @@
 import {
 	type AppLoadContext,
 	type SessionStorage,
-	redirectDocument,
 } from "@remix-run/server-runtime";
+import { redirectDocument } from "@remix-run/node";
 import createDebug from "debug";
 import {
 	type AuthenticateOptions,
